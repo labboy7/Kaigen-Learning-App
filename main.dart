@@ -11,9 +11,8 @@ void main() async {
   ErrorWidget.builder = (FlutterErrorDetails details) => Scaffold(body:Center(child: Text("Something went wrong here :( Please report this to @labboy7 on Discord or Github..."),));
 
   await Supabase.initialize(
-    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNvdnd1ZnNqbXBvZGxrZ3pzZ3BwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTI2NTM5OTUsImV4cCI6MjA2ODIyOTk5NX0.3VrkXuWqh2dPBHIxBTHtqeMsgL7al_aPdVeMu8mF6hw",
-    url: "https://covwufsjmpodlkgzsgpp.supabase.co",
-      ); // Initialize Supabase client
+    // uhh blah
+    / Initialize Supabase client
   runApp( MyApp());
   
   }
